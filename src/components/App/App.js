@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import './App.css';
+import Button from '../Button/Button';
+
 //redux
 import { connect } from 'react-redux';
 //redux actions
@@ -18,13 +20,23 @@ class App extends Component {
         {this.props.bla.data.map(item => (
           <div key={item.id}>
             <h3>{item.title}</h3>
-            <button onClick={() => { console.log(item.title + ' is being deleted'); this.delNews(item) }}>Delete</button>
+            <Button
+              onClick={() => { console.log(item.title + ' is being deleted'); this.delNews(item) }}
+              style={{ backgroundColor: 'white', color: 'red' }}
+            >
+              Delete
+          </Button>
           </div>
         )
         )}
 
+        <hr />
         <input ref={(i => this.inputRef = i)} />
-        <button onClick={() => { console.log(this.inputRef.value); this.addNews() }}>Add Headline</button>
+        <Button
+          onClick={() => { console.log(this.inputRef.value); this.addNews() }}
+        >
+          Add Headline
+        </Button>
 
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

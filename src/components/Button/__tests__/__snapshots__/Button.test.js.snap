@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Snapshot should create a basic button with defailt styles 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+      "border": "1px solid",
+      "color": "blue",
+      "cursor": "pointer",
+      "margin": "3px",
+      "padding": "2px 10px",
+    }
+  }
+>
+   Click Me 
+</button>
+`;
+
+exports[`Button Unit should create a basic button with defailt styles 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "aliceblue",
+      "border": "1px solid",
+      "color": "burgundy",
+      "cursor": "pointer",
+      "margin": "3px",
+      "padding": "2px 10px",
+    }
+  }
+>
+   Click Me 
+</button>
+`;
