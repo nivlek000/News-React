@@ -23,7 +23,7 @@ exports[`Button Unit should create a basic button with defailt styles 1`] = `
     Object {
       "backgroundColor": "aliceblue",
       "border": "1px solid",
-      "color": "burgundy",
+      "color": "yellow",
       "cursor": "pointer",
       "margin": "3px",
       "padding": "2px 10px",

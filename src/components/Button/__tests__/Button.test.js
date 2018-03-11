@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import  { shallow} from 'enzyme';
+import { shallow } from 'enzyme';
 import Button from '../Button';
 
 describe('Button', () => {
@@ -14,11 +14,11 @@ describe('Button', () => {
         });
 
     });
-    
+
     describe('Unit', () => {
         it('should create a basic button with defailt styles', () => {
             const components = renderer
-                .create(<Button style={{color:"burgundy"}}> Click Me </Button>)
+                .create(<Button style={{ color: "yellow" }}> Click Me </Button>)
                 .toJSON();
             expect(components).toMatchSnapshot();
 
