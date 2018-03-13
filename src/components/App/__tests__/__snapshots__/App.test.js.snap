@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App  Snapshot should render app component with children 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <div>
+    <h3>
+      3million richer snake
+    </h3>
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "1px solid",
+          "color": "red",
+          "cursor": "pointer",
+          "margin": "3px",
+          "padding": "2px 10px",
+        }
+      }
+    >
+      Delete
+    </button>
+  </div>
+  <div>
+    <h3>
+      Monkey swallows snake
+    </h3>
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "1px solid",
+          "color": "red",
+          "cursor": "pointer",
+          "margin": "3px",
+          "padding": "2px 10px",
+        }
+      }
+    >
+      Delete
+    </button>
+  </div>
+  <hr />
+  <input />
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "aliceblue",
+        "border": "1px solid",
+        "color": "blue",
+        "cursor": "pointer",
+        "margin": "3px",
+        "padding": "2px 10px",
+      }
+    }
+  >
+    Add Headline
+  </button>
+  <p
+    className="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+</div>
+`;

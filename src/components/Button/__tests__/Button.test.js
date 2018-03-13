@@ -25,4 +25,18 @@ describe('Button', () => {
         });
 
     });
+
+
+    describe('Unit', () => {
+        it('should create a clickable button', () => {
+            let count = 0;
+            const button = shallow(
+                <Button onClick={() => count++}>
+                    click me!
+                </Button>
+            );
+            button.simulate('click');
+            expect(count).toEqual(1);
+        });
+    });
 });
